@@ -1,0 +1,54 @@
+.form-control{
+    border-radius: 40px;
+    width: 500px;
+    margin-left: 28%;
+}
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 32%;
+    top:22px;
+    color: brown;
+}
+button{
+    margin-right:8%;
+}
+.fa-truck-fast{
+    margin-left: 18%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    font-size:40px;
+}
+@media screen and (max-width:768px){
+    .form-control{
+        border-radius: 40px;
+        width:80px;
+        
+    }
+    h2{
+        font-size:20px;
+        top:40px;
+    }
+    .search-icon{
+        display:none;
+        position: absolute;
+        top:22px;
+        color: brown;
+    }
+    button{
+        margin-right:1%;
+    }
+    .fa-truck-fast{
+        margin-left:10px;
+        font-size:20px;
+    }
+
+    button{
+        margin-right:10px;
+    }
+}

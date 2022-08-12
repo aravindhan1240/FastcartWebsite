@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar navbar-dark bg-info shadow-sm" style="width: 100%;">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px; " class="fa-solid fa-truck-fast"> &nbsp;</i>
+            <strong style="font-size:30px ;">Fastcart</strong>
+            <div class="form-gorup">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm"(keyup)="search($event)" placeholder="Search Products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+        </div>
+        <button routerLink="card" class="btn btn-info">
+            <i style="font-size:30px ;" class="fa-solid fa-cart-shopping"></i>
+            <div style="font-size:10px ;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
+
+
